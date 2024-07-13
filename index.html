@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+		.containerco {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: baseline;
+		}
+	
+		.card {
+			
+			border-radius: 10px;
+			color: white;
+			width: 300px; /* Adjusted width for better spacing */
+			height: 80px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			margin: 20px;
+			padding: 20px; /* Removed duplicate padding */
+			
+		}
+	
+		.card h2 {
+			margin: 0 0 10px;
+			font-size: 1.2em;
+		}
+	
+		.card .number {
+			font-size: 28px;
+			font-weight: bold;
+			margin-bottom: 0.3em;
+		}
+	
+		.card .percentage-change {
+			font-size: 0.8em;
+		}
+	
+		.card:nth-child(1) {
+			background-color: #6A7BA2; /* Blue */
+		}
+	
+		.card:nth-child(2) {
+			background-color: #5E6C9D; /* Darker Blue */
+		}
+
+		.card:nth-child(3) {
+			background-color: #5E6C9D; /* Darker Blue */
+		}
+	
+		.card:nth-child(4) {
+			background-color: #8A7BAF; /* Purple */
+		}
+	</style>
+	
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Welcome</h2>
+            </div>
+            <ul class="menu">
+				<li><a href="file:///C:/Users/Administrator/Documents/Library%20System/main%20dashboard/dashboard-maingeeeeeeeeeeeeeet/index.html#" class="active">Discover</a></li>
+                <li><a href="file:///C:/Users/Administrator/Documents/Library%20System/dashboard-maingeeeeeeeeeeeeeet/index.html">Books</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">My Library</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Favorite</a></li>
+                <li><a href="#">Setting</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Log out</a></li>
+            </ul>
+        </div>
+		<div class="containerco">
+		<div class="card">
+			<h2>Total Books</h2>
+			<div class="number">4006</div>
+			<div class="percentage-change">30 Days</div>
+		</div>
+		
+		<div class="card">
+			<h2>Total Students</h2>
+			<div class="number">1500</div>
+			<div class="percentage-change">30 Days</div>
+		</div>
+
+		<div class="card">
+			<h2>Issued Books</h2>
+			<div class="number">542</div>
+			<div class="percentage-change">30 Days</div>
+		</div>
+		
+		<div class="card">
+			<h2>Available Books</h2>
+			<div class="number">3464</div>
+			<div class="percentage-change">30 Days</div>
+		</div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
